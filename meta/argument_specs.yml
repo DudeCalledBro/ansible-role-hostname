@@ -1,0 +1,14 @@
+argument_specs:
+  main:
+    short_description: Hostname
+    description: "This ansible role setups the hostname on linux systems"
+    author: DudeCalledBro
+    options:
+      hostname:
+        type: str
+        default: "{{ inventory_hostname_short }}"
+        description: "Set system hostname"
+      hostname_reboot:
+        type: bool
+        default: true
+        description: "Reboot system if hostname changes"
