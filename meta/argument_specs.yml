@@ -1,8 +1,8 @@
 argument_specs:
   main:
-    short_description: Hostname
-    description: "This ansible role setups the hostname on linux systems"
-    author: DudeCalledBro
+    short_description: hostname
+    description: "Setup linux server hostname."
+    author: dudecalledbro
     options:
       hostname:
         type: str
