@@ -3,7 +3,7 @@ dependencies: []
 galaxy_info:
   role_name: hostname
   author: dudecalledbro
-  description: Setup linux server hostname.
+  description: Setup system hostname with ansible.
   license: "license (MIT)"
   min_ansible_version: "2.15"
   platforms:
@@ -11,6 +11,9 @@ galaxy_info:
     versions:
     - all
   - name: Ubuntu
+    versions:
+    - all
+  - name: MacOSX
     versions:
     - all
 

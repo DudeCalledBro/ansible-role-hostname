@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/DudeCalledBro/ansible-role-hostname/actions/workflows/molecule.yml/badge.svg)](https://github.com/DudeCalledBro/ansible-role-hostname/actions/workflows/molecule.yml)
 
-Setup linux server hostname.
+Setup system hostname with ansible.
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 argument_specs:
   main:
     short_description: hostname
-    description: "Setup linux server hostname."
+    description: "Setup system hostname with ansible."
     author: dudecalledbro
     options:
       hostname:

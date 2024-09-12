@@ -1,10 +1,11 @@
 - name: Install hostname requirements
+  when: ansible_distribution not in ["MacOSX"]
   ansible.builtin.package:
     name: hostname
     state: present
 
 - name: Configure hostname
-  when: ansible_connection not in [ "container", "docker", "community.docker.docker" ]
+  when: ansible_connection not in ["container", "docker", "community.docker.docker"]
   ansible.builtin.hostname:
     name: "{{ hostname }}"
   notify:

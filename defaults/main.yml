@@ -2,4 +2,4 @@
 hostname: "{{ inventory_hostname_short }}"
 
 # Reboot system if hostname changes
-hostname_reboot: true
+hostname_reboot: false
